@@ -1,4 +1,4 @@
-Dependencies Installation
+**Dependencies Installation**
 
 **Install dependencies for building from source**
 ```
@@ -50,8 +50,8 @@ wardend init "Your Node Name" --chain-id chiado_10010-1
 
 **Download genesis and addrbook files**
 ```
-curl -L https://snapshots-testnet.nodejumper.io/warden/genesis.json > $HOME/.warden/config/genesis.json
-curl -L https://snapshots-testnet.nodejumper.io/warden/addrbook.json > $HOME/.warden/config/addrbook.json
+curl -L https://raw.githubusercontent.com/ailuvuu/Warden/refs/heads/main/genesis.json > $HOME/.warden/config/genesis.json
+curl -L https://raw.githubusercontent.com/ailuvuu/Warden/refs/heads/main/addrbook.json > $HOME/.warden/config/addrbook.json
 ```
 
 **Set seeds**
